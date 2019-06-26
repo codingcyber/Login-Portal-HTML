@@ -148,58 +148,88 @@
         <div id="page-wrapper" style="min-height: 345px;">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">My Profile</h1>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Update Profie Information Here...
+                            Update Profie
                         </div>
                         <div class="panel-body">
+                            <form method="post">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <form role="form">
                                         <div class="form-group">
-                                            <label>User Name</label>
-                                            <input class="form-control" placeholder="Enter User Name">
+                                            <input class="form-control" placeholder="First Name">
                                         </div>
                                         <div class="form-group">
-                                            <label>E-Mail</label>
-                                            <input type="email" class="form-control" placeholder="Enter E-Mail">
+                                            <input class="form-control" placeholder="Last Name">
                                         </div>
                                         <div class="form-group">
-                                            <label>First Name</label>
-                                            <input class="form-control" placeholder="Enter First Name">
+                                            <input type="email" class="form-control" placeholder="E-Mail">
                                         </div>
                                         <div class="form-group">
-                                            <label>Last Name</label>
-                                            <input class="form-control" placeholder="Enter Last Name">
+                                            <input class="form-control" placeholder="Mobile">
                                         </div>
                                         <div class="form-group">
-                                            <label>Password</label>
-                                            <input class="form-control" placeholder="Enter User Password">
+                                            <label class="radio-inline">
+                                                <input type="radio" name="Gender" value="male" checked="">Male
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="gender" value="female">Female
+                                            </label>
                                         </div>
                                         <div class="form-group">
-                                            <label>User Role</label>
                                             <select class="form-control">
-                                                <option>Select User Role</option>
-                                                <option>Subscriber</option>
-                                                <option>Editor</option>
-                                                <option>Administrator</option>
+                                                <option>Select Age</option>
+                                                <option>20</option>
+                                                <option>21</option>
+                                                <option>22</option>
                                             </select>
                                         </div>
+                                        <div class="form-group">
+                                            <input type="file">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="3" placeholder="Bio"></textarea>
+                                        </div>
+                                </div>
+                                <!-- /.col-lg-6 (nested) -->
+                                <div class="col-lg-6">
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                                            <input type="text" class="form-control" placeholder="FaceBook Profile">
+                                        </div>
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                                            <input type="text" class="form-control" placeholder="Twitter Profile">
+                                        </div>
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                                            <input type="text" class="form-control" placeholder="Linkedin Profile">
+                                        </div>
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon"><i class="fa fa-rss" aria-hidden="true"></i></span>
+                                            <input type="text" class="form-control" placeholder="Blog">
+                                        </div>
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                                            <input type="text" class="form-control" placeholder="Website">
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Repeat Password">
+                                        </div>
+                                        <hr>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Confirm Present Password">
+                                        </div>
 
-                                        <button type="submit" class="btn btn-primary">Update</button>
-                                        <button type="reset" class="btn btn-danger">Reset </button>
-                                    </form>
+                                        <input type="submit" class="btn btn-success btn-lg btn-block" value="Update Profile" />
                                 </div>
                                 <!-- /.col-lg-6 (nested) -->   
                             <!-- /.row (nested) -->
                         </div>
+                    </form>
                         <!-- /.panel-body -->
                     </div>
                     <!-- /.panel -->
